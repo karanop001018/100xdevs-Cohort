@@ -1,0 +1,67 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 2px 1px 2px #eee;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #666;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.nav-img{
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+}
+
+.body-img{
+    width: 950px;
+    height: auto;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.headline{
+    color:#666;
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    color:#666;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-btn{
+    background-color: #387ed1;
+    color:#eee;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 2px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
