@@ -19,7 +19,7 @@ Describe the installation process here. For example:
 
 To install the necessary dependencies, run the following command:
 
-```bash
+```markdown
 npm install
 
 🎯 Usage 🎯
