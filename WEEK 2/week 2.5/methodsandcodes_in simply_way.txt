@@ -1,0 +1,14 @@
+Let's say your logic is like a doctor.
+
+---------------------: Request Methods :---------------------
+GET : Going for a consultation to get a check up
+POST : Going to get a new kidney inserted
+PUT : Going to get a kidney replaced
+DELETE : Going to get a kidney removed
+
+---------------------: Status Codes :---------------------
+200 : Everything went fine 
+404 : Doctor is not in hospital
+500 : Mid surgery light went away
+411 : Inputs were incorrect, wrong person came to surgery
+403 : You were not allowed in the hospital

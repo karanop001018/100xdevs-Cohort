@@ -1,0 +1,99 @@
+---------------:Request Methods:---------------
+[1] GET :---
+
+The GET method is used to retrieve data from a server. When you make a GET request, you’re asking the server to send back specific information (usually in the form of a response body) associated with a particular resource.
+Key points:
+Safe: GET requests are considered safe because they don’t modify any data on the server.
+Idempotent: Multiple identical GET requests should yield the same result.
+
+[2] POST :---
+
+The POST method is used to send data to the server to create or update a resource. It typically includes a request body containing the data you want to submit.
+Key points:
+Not safe: POST requests can modify data on the server.
+Not idempotent: Repeated POST requests may create multiple resources.
+
+[3]  PUT :---
+
+The PUT method is used to update an existing resource on the server. It replaces the entire resource with the new data provided.
+Key points:
+Idempotent: Repeated PUT requests with the same data should have the same effect.
+
+[4]  DELETE :--
+
+The DELETE method is used to remove a resource from the server.
+Key points:
+Idempotent: Repeated DELETE requests should have the same effect (resource removal).
+
+
+---------------------: 404 Error :---------------------
+A 404 error is an HTTP response code that occurs when a web browser requests a specific page from a website, but the server (where the website lives) cannot deliver the requested content. In simpler terms, it’s your website’s way of saying, “I couldn’t find the page you requested.”
+
+Here are some key points about 404 errors:
+
+1. Cause:The most common reason for a 404 error is broken links within your website. These links may point to pages that no longer exist, have been moved, or were renamed.
+Even a small typo in a website address can lead to a 404 error.
+
+2. Context and Troubleshooting:
+    (i) Consider the context:Did the error occur after clicking a broken link within your website or from an external site?
+        Did you type a URL directly that resulted in an error?
+    (ii) Troubleshooting steps:Check for typos in the URL, paying attention to capitalization, dashes, or misplaced characters.
+         Investigate links: If the error happened after clicking a link, determine whether it’s an outdated internal link on your website or an external link that needs updating.
+
+3. Impact:
+For users, encountering a 404 error can be frustrating.
+For search engines, it’s a potential red flag, affecting your website’s ranking.
+
+4. Fixing 404 Errors:
+Diagnose the root cause by analyzing where and why the error occurred.
+Implement appropriate solutions, such as:
+Redirecting broken links to relevant pages.
+Ensuring proper URL structures.
+Updating outdated internal and external links.
+
+Remember, 404 errors are common and often fixable. As a website owner, addressing them promptly helps keep your site running smoothly! 🌐🔍
+
+
+
+
+-----------------------: STATUS CODES :-----------------------
+
+Certainly! Here's a concise list of common **HTTP status codes** along with their meanings:
+
+1. **Informational Responses (100–199)**:
+   - **100 Continue**: Indicates that the client should continue the request or ignore the response if the request is already finished.
+   - **101 Switching Protocols**: Sent in response to an Upgrade request header from the client, indicating the protocol the server is switching to.
+   - **102 Processing (WebDAV)**: Indicates that the server has received and is processing the request, but no response is available yet.
+   - **103 Early Hints**: Primarily used with the Link header, allowing preloading resources while the server prepares a response or preconnects to an origin¹.
+
+2. **Successful Responses (200–299)**:
+   - **200 OK**: The request succeeded. The meaning of "success" depends on the HTTP method:
+     - **GET**: The resource has been fetched and transmitted in the message body.
+     - **HEAD**: The representation headers are included in the response without any message body.
+     - **PUT** or **POST**: The resource describing the result of the action is transmitted in the message body.
+     - **TRACE**: The message body contains the request message as received by the server.
+   - **201 Created**: The request succeeded, and a new resource was created as a result (typically sent after **POST** requests or some **PUT** requests).
+   - **202 Accepted**: The request has been received but not yet acted upon. It is noncommittal, often used when another process or server handles the request.
+   - **203 Non-Authoritative Information**: The returned metadata is not exactly the same as available from the origin server but is collected from a local or third-party copy (used for mirrors or backups).
+   - **204 No Content**: There is no content to send for this request, but the headers may be useful. The user agent may update its cached headers for this resource.
+   - **205 Reset Content**: Instructs the user agent to reset the document that sent this request.
+   - **206 Partial Content**: Used when the Range header is sent from the client to request only part of a resource¹.
+
+3. **Redirection Messages (300–399)**:
+   - These codes indicate redirection or further action needed by the client.
+
+4. **Client Error Responses (400–499)**:
+   - **400 Bad Request**: The server cannot process the request due to client error (e.g., malformed syntax).
+   - **401 Unauthorized**: Authentication is required, and the client must provide valid credentials.
+   - **403 Forbidden**: The client does not have permission to access the requested resource.
+   - **404 Not Found**: The requested resource does not exist on the server.
+   - **405 Method Not Allowed**: The method specified in the request is not allowed for the resource.
+   - And more...
+
+5. **Server Error Responses (500–599)**:
+   - **500 Internal Server Error**: A generic error message indicating an unexpected condition on the server.
+   - **502 Bad Gateway**: The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+   - **503 Service Unavailable**: The server is currently unable to handle the request due to temporary overloading or maintenance.
+   - And more...
+
+Remember, these status codes play a crucial role in communication between clients (like web browsers) and servers. They help determine how requests are handled and whether they succeed or encounter errors! 🌐🔍

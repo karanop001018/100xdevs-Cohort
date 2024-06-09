@@ -1,0 +1,7 @@
+To run this server in your mobile follow the steps given below:
+[1] Open terminal in vs code : For windows type "ipconfig"
+                               For mac type "ifconfig" 
+[2] Find "IPv4 Address" in the  output of above command.
+[3] Copy that IP address and paste it into url bar of any web browser on your mobile device.
+[4] Ex: 192.178.2.1:3000  or  192.178.2.1:3000/?n=10
+[5] Hit enter, you will see the result.

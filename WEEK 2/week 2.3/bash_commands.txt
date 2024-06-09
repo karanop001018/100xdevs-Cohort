@@ -1,0 +1,89 @@
+Terminal commands:-----
+
+Terminal is nothing but another interface to do things on your machine
+
+1. **`pwd` (Print Working Directory)**:
+    - **Purpose**: Displays the current directory path.
+    - **Example**:
+      ```
+      $ pwd
+      /home/user/documents
+      ```
+
+2. **`cd` (Change Directory)**:
+    - **Purpose**: Used to navigate to a different directory.
+    - **Example**:
+      ```
+      $ cd /home/user/documents
+      ```
+
+3. **`ls` (List)**:
+    - **Purpose**: Lists the files and directories in the current directory.
+    - **Example**:
+      ```
+      $ ls
+      file1.txt  dir1  dir2
+      ```
+
+4. **`mkdir` (Make Directory)**:
+    - **Purpose**: Creates a new directory.
+    - **Example**:
+      ```
+      $ mkdir new_directory
+      ```
+
+5. **`touch` (Create Empty File)**:
+    - **Purpose**: Creates an empty file.
+    - **Example**:
+      ```
+      $ touch new_file.txt
+      ```
+
+6. **`cat` (Concatenate and Display Content)**:
+    - **Purpose**: Displays the content of a file.
+    - **Example**:
+      ```
+      $ cat file.txt
+      ```
+
+7. **`vi` (Visual Editor)**:
+    - **Purpose**: A text editor for creating and editing files.
+    - **Example**:
+      ```
+      $ vi new_file.txt
+      ```
+
+8. **`mv` (Move)**:
+    - **Purpose**: Moves a file or directory to a different location.
+    - **Example**:
+      ```
+      $ mv file.txt /home/user/documents
+      ```
+
+9. **`cp` (Copy)**:
+    - **Purpose**: Copies files or directories from one location to another.
+    - **Example**:
+      ```
+      $ cp file.txt /home/user/documents
+      ```
+
+10. **`nvm` (Node Version Manager)**:
+    - **Purpose**: Manages multiple versions of Node.js.
+    - **Example**:
+      ```
+      $ nvm install 14.17.0
+      ```
+
+11. **`npm` (Node Package Manager)**:
+    - **Purpose**: Installs and manages Node.js packages.
+    - **Example**:
+      ```
+      $ npm install express
+      ```
+
+12. **`node` (Node.js)**:
+    - **Purpose**: A JavaScript runtime environment for executing JavaScript code outside the browser.
+    - **Example**:
+      ```
+      $ node app.js
+      ```
