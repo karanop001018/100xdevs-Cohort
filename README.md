@@ -22,14 +22,14 @@ To install the necessary dependencies, run the following command:
 ```markdown
 npm install
 ```
-##🎯 Usage 🎯<br>
+##🎯 Usage 🎯
 Provide instructions and examples for use. Include screenshots as needed.
 
-##🤝 Contributing 🤝<br>
+##🤝 Contributing 🤝
 If you would like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-##🧪 Tests 🧪<br>
+##🧪 Tests 🧪
 Explain how to run the automated tests for this system.
 
-##📜 License 📜<br>
+##📜 License 📜
 State what the license is and how to find the text version of the license.
