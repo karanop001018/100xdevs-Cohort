@@ -42,7 +42,7 @@ Sure, here's a step-by-step guide for contributing to your GitHub repository:
 Open a terminal and run the following git command:
 
 ```bash
-git clone "url you just copied"
+git clone https://github.com/karanop001018/100xdevs-Cohort.git
 ```
 
 ## Step 3: Create a New Branch
