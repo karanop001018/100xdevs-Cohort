@@ -21,7 +21,7 @@ To install the necessary dependencies, run the following command:
 
 ```markdown
 npm install
-
+```
 🎯 Usage 🎯
 Provide instructions and examples for use. Include screenshots as needed.
 
